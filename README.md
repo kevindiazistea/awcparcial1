@@ -17,6 +17,7 @@ Con la idea de simular una interfaz de un panel administrativo.
 - /css/styles.css      → Estilos del proyecto
 - /imagenes            → Imagnes de las secciones
 - /js/script.js        → Funciones del proyecto (Menu hamburguesa)
+- Link de iconos - https://fontawesome.com/v4.7.0/icons/
 
 ## La web nos debe permitir
 
