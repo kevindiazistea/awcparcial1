@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F7F7F7;
+}
+
+.barra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;          
+  background-color: #EDEDED;
+  padding: 0 20px;              
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  height: 60px;
+  color: #2A3F54;
+  font-size: 30px;
+  box-sizing: border-box; 
+}
+
+.menulista {
+  cursor: pointer;
+  color: #2A3F54;
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  position: fixed;
+  top: 60px; 
+  left: 0;
+  width: 250px;
+  height: calc(100% - 60px); 
+  background-color: #2A3F54;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: width 0.3s ease;
+}
+
+.menu.hide {
+  width: 110px;
+}
+
+.menu.show {
+  width: 340px;
+}
+
+.menu-items ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-items li {
+  padding: 15px;
+  text-align: center;
+}
+
+.menu-items li a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.hidden {
+  display: none;
+  text-align: center;
+  margin: 100px auto 0;
+}
+
+.hidden img {
+  max-width: 500px;
+  height: auto;
+}
+.iconos-derecha {
+  display: flex;
+  gap: 20px;
+  margin-left: auto;
+  align-items: center;
+  color: #2A3F54;
+}
+
+.iconos-derecha i {
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}

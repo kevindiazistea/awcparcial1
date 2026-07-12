@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recuperatorio Parcial 1 - KD</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
+  <link rel="stylesheet" href="css/styles.css"> 
+</head>
+<body>
+  <div class="barra">
+    <div class="container">
+      <i class="fas fa-wrench fa-lg"> Administracion</i>
+    </div>
+    <div class="menulista" onclick="MenuLista()">
+      <i class="fas fa-bars fa-2x"></i>
+    </div>
+    <div class="iconos-derecha">
+      <i class="fas fa-toggle-on" title="Idioma">English</i>
+      <i class="fas fa-user-circle" title="Salir">Logout</i>
+    </div>
+  </div>
+    <div class="menu show" id="menu"> <h2>MENU</h2>
+      <div class="menu-items">
+        <ul>
+          <li><a href="#" onclick="botonMostrar('userBoton')"><i class="fa fa-users fa-fw"></i><span class="menu-text"> Customer Account</span></a></li>
+          <li><a href="#" onclick="botonMostrar('accesBoton')"><i class="fa fa-credit-card fa-fw"></i><span class="menu-text"> Access media</span></a></li>
+          <li><a href="#" onclick="botonMostrar('statiBoton')"><i class="fa fa-chart-bar fa-fw"></i><span class="menu-text"> Statistics</span></a></li>
+          <li><a href="#" onclick="botonMostrar('devicesBoton')"><i class="fa fa-cog fa-fw"></i><span class="menu-text"> Devices</span></a></li>
+          <li><a href="#" onclick="botonMostrar('tariBoton')"><i class="fa fa-dollar-sign fa-fw"></i><span class="menu-text"> Tarification</span></a></li>
+          <li><a href="#" onclick="botonMostrar('agentBoton')"><i class="fa fa-adjust fa-fw" aria-hidden="true"></i><span class="menu-text"> Agent Account</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="userBoton" class="hidden">
+    <h2>Customer Account</h2>
+    <img src="imagenes/customer.jpg" alt="Customer account">
+  </div>
+  <div id="accesBoton" class="hidden">
+    <h2>Access Media</h2>
+    <img src="imagenes/access.jpg" alt="Access media">
+  </div>
+  <div id="statiBoton" class="hidden">
+    <h2>Statistics</h2>
+    <img src="imagenes/estafistica.jpg" alt="Statistics">
+  </div>
+  <div id="devicesBoton" class="hidden">
+    <h2>Devices</h2>
+    <img src="imagenes/devices.jpg" alt="Devices">
+  </div>
+  <div id="tariBoton" class="hidden">
+    <h2>Tarification</h2>
+    <img src="imagenes/tarifa.jpg" alt="Tarification">
+  </div>
+  <div id="agentBoton" class="hidden">
+    <h2>Agent Account</h2>
+    <img src="imagenes/agent.jpg" alt="Agent account">
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
